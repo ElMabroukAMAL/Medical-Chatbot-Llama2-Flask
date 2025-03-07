@@ -4,3 +4,4 @@ pinecone-client
 langchain==0.0.255
 flask
 pypdf
+-e . # to run setup.py and install the new package 
