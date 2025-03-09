@@ -1,7 +1,11 @@
 ctransformers==0.2.5 #to use quantized model
-sentence-transformers==2.2.2 #to download embedding model
+sentence-transformers #to download embedding model
+langchain
+langchain_huggingface
+langchain-community
+langchain_pinecone
 pinecone-client
-langchain==0.0.255
 flask
 pypdf
+python_dotenv # to read .env file
 -e . # to run setup.py and install the new package 
