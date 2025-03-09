@@ -1,6 +1,6 @@
 ## Project Overview
 
-A Flask-based medical chatbot using LangChain, Pinecone, and Meta's Llama 2 for efficient data retrieval and question answering.
+A Flask-based medical chatbot using LangChain, Pinecone, and Meta's Llama2 for efficient data retrieval and question answering.
 
 1. **Extract & Process Data** – Load medical PDFs and extract text.
 2. **Chunk Text** – Split content into manageable parts.
