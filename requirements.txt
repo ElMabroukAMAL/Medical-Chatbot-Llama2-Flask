@@ -6,6 +6,6 @@ langchain-community
 langchain_pinecone
 pinecone-client
 pypdf
-flask
 python_dotenv # to read .env file
+flask
 -e . # to run setup.py and install the new package 
