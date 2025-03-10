@@ -1,4 +1,4 @@
-ctransformers==0.2.5 #to use quantized model
+ctransformers #to use quantized model
 sentence-transformers #to download embedding model
 langchain
 langchain_huggingface

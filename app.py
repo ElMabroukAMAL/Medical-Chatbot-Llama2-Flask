@@ -41,14 +41,12 @@ chain = create_retrieval_chain(retriever, QandA_chain)
 def index():
     return render_template('mchat.html')
 
-
+@app.route("/get",methods=['GET','POST'])
 def ask_chat():
     input=request.form["msg"]
     result=chain.invoke({"context":'serious',"input":input})
     print("Response : ", result)
-    print('type of result',type(result))
     return str(result['answer'])
-
 
 
 if __name__=="__main__":
